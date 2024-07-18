@@ -30,7 +30,7 @@ jobs:
           id: preview_app_comment
           number: ${{github.event.number}}
           repository: "https://github.com/pari-m/preview-app"
-          #repository: ${{env.GITHUB_REPOSITORY}}
+          #repository: ${{env.GITHUB_REPOSITORY}} 
           message: |
             Console URL available at ${{steps.hasura_cloud_preview.outputs.consoleURL}}
             GraphQL Endpoint available at ${{steps.hasura_cloud_preview.outputs.graphQLEndpoint}}
