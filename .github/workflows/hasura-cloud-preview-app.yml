@@ -19,6 +19,7 @@ jobs:
           region: ap-southeast-1
           tier: cloud_free_v2
           hasuraEnv: |
+            ENV_VAR_1=value_1
             
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
