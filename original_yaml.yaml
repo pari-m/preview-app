@@ -10,7 +10,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-
             - name: Hasura Cloud Preview Apps
               uses: hasura/hasura-cloud-preview-apps@v0.1.9
               id: hasura_cloud_preview
